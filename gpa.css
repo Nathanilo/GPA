@@ -1,0 +1,13 @@
+body{
+	background-color: #A8E6FF;
+	font-family:helvetica;
+}
+
+h1{
+	text-align: center;
+	border:5px solid black;
+	border-radius: 5px;
+    margin: auto;
+}
+
+
