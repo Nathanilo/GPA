@@ -6,88 +6,99 @@
 	<link rel="stylesheet" type="text/css" href="gpa.css">
 </head>
 <body>
-<h1>GPA CALCULATOR</h1>
-<div>
-<div>
+	<div id="head" style="margin-top: 1rem;"><b>GPA CALCULATOR</b></div>
+	<form>
+	<div style="display: flex; justify-content: center; margin-top: 1.3rem">
 
-<h2>FIRST SEMESTER</h2>
-<form>
-MEE351
-<input type="text" name="grade1" placeholder="Enter Grade" value="<?php echo $gra1;?>">
-<input type="text" name="credit1" placeholder="Enter Credit"  value="<?php echo $cre1;?>"><br>
-
-
-CHE321
-<input type="text" name="grade2" placeholder="Enter Grade"  value="<?php echo $gra2;?>">
-<input type="text" name="credit2" placeholder="Enter Credit" value="<?php echo $cre2;?>"><br>
-
-CHE331
-<input type="text" name="grade3" placeholder="Enter Grade"  value="<?php echo $gra3;?>">
-<input type="text" name="credit3" placeholder="Enter Credit"  value="<?php echo $cre3;?>"><br>
-
-CHE341
-<input type="text" name="grade4" placeholder="Enter Grade"  value="<?php echo $gra4;?>">
-<input type="text" name="credit4" placeholder="Enter Credit"  value="<?php echo $cre4;?>"><br>
-
-CHE351
-<input type="text" name="grade5" placeholder="Enter Grade"  value="<?php echo $gra5;?>">
-<input type="text" name="credit5" placeholder="Enter Credit"  value="<?php echo $cre5;?>"><br>
-
-CHE361
-<input type="text" name="grade6" placeholder="Enter Grade"  value="<?php echo $gra6;?>">
-<input type="text" name="credit6" placeholder="Enter Credit"  value="<?php echo $cre6;?>"><br>
+		<fieldset>
+			<legend><h3>FIRST SEMESTER</h3></legend>
+		
+			MEE351
+			<input type="text" name="grade1" placeholder="Enter Grade" >
+			<input type="text" name="credit1" placeholder="Enter Credit"><br>
 
 
-EMA381
-<input type="text" name="grade7" placeholder="Enter Grade"  value="<?php echo $gra7;?>">
-<input type="text" name="credit7" placeholder="Enter Credit"  value="<?php echo $cre7;?>"><br>
+			CHE321
+			<input type="text" name="grade2" placeholder="Enter Grade"  >
+			<input type="text" name="credit2" placeholder="Enter Credit" ><br>
 
-CHE301
-<input type="text" name="grade8" placeholder="Enter Grade"  value="<?php echo $gra8;?>">
-<input type="text" name="credit8" placeholder="Enter Credit"  value="<?php echo $cre8;?>"><br>
+			CHE331
+			<input type="text" name="grade3" placeholder="Enter Grade"  >
+			<input type="text" name="credit3" placeholder="Enter Credit"><br>
 
-</div>
+			CHE341
+			<input type="text" name="grade4" placeholder="Enter Grade"  >
+			<input type="text" name="credit4" placeholder="Enter Credit" ><br>
 
-<div>
+			CHE351
+			<input type="text" name="grade5" placeholder="Enter Grade"  >
+			<input type="text" name="credit5" placeholder="Enter Credit" ><br>
 
-<h2>SECOND SEMESTER</h2>
+			CHE361
+			<input type="text" name="grade6" placeholder="Enter Grade"  >
+			<input type="text" name="credit6" placeholder="Enter Credit"><br>
 
-CHE302
-<input type="text" name="grade9" placeholder="Enter Grade"  value="<?php echo $gra9;?>">
-<input type="text" name="credit9" placeholder="Enter Credit"  value="<?php echo $cre9;?>"><br>
 
-CHE312
-<input type="text" name="grade10" placeholder="Enter Grade"  value="<?php echo $gra10;?>">
-<input type="text" name="credit10" placeholder="Enter Credit"  value="<?php echo $cre10;?>"><br>
+			EMA381
+			<input type="text" name="grade7" placeholder="Enter Grade"  >
+			<input type="text" name="credit7" placeholder="Enter Credit"  ><br>
 
-CHE322
-<input type="text" name="grade11" placeholder="Enter Grade"  value="<?php echo $gra11;?>">
-<input type="text" name="credit11" placeholder="Enter Credit"  value="<?php echo $cre11;?>"><br>
+			CHE301
+			<input type="text" name="grade8" placeholder="Enter Grade"  >
+			<input type="text" name="credit8" placeholder="Enter Credit"  ><br>
+		
+		</fieldset>
+	</div>
 
-CHE332
-<input type="text" name="grade12" placeholder="Enter Grade"  value="<?php echo $gra12;?>">
-<input type="text" name="credit12" placeholder="Enter Credit"  value="<?php echo $cre12;?>"><br>
+	<div style="display: flex; justify-content: center; margin-top: 1.3rem">
+		<fieldset>
+			<legend><h3>SECOND SEMESTER</h3></legend>
 
-CHE352
-<input type="text" name="grade13" placeholder="Enter Grade"  value="<?php echo $gra13;?>">
-<input type="text" name="credit13" placeholder="Enter Credit"  value="<?php echo $cre13;?>"><br>
+			CHE302
+			<input type="text" name="grade9" placeholder="Enter Grade">
+			<input type="text" name="credit9" placeholder="Enter Credit"><br>
 
-CHE362
-<input type="text" name="grade14" placeholder="Enter Grade"  value="<?php echo $gra14;?>">
-<input type="text" name="credit14" placeholder="Enter Credit"  value="<?php echo $cre14;?>"><br>
+			CHE312
+			<input type="text" name="grade10" placeholder="Enter Grade"  >
+			<input type="text" name="credit10" placeholder="Enter Credit" ><br>
 
-CHE372
-<input type="text" name="grade15" placeholder="Enter Grade"  value="<?php echo $gra15;?>">
-<input type="text" name="credit15" placeholder="Enter Credit"  value="<?php echo $cre15;?>"><br>
+			CHE322
+			<input type="text" name="grade11" placeholder="Enter Grade"  >
+			<input type="text" name="credit11" placeholder="Enter Credit" ><br>
 
-EMA382
-<input type="text" name="grade16" placeholder="Enter Grade"  value="<?php echo $gra16;?>">
-<input type="text" name="credit16" placeholder="Enter Credit"  value="<?php echo $cre16;?>"><br>
-<p><input type="submit"</p>
-</div>
+			CHE332
+			<input type="text" name="grade12" placeholder="Enter Grade" >
+			<input type="text" name="credit12" placeholder="Enter Credit"><br>
 
-</div>
+			CHE352
+			<input type="text" name="grade13" placeholder="Enter Grade"  >
+			<input type="text" name="credit13" placeholder="Enter Credit"  ><br>
+
+			CHE362
+			<input type="text" name="grade14" placeholder="Enter Grade" >
+			<input type="text" name="credit14" placeholder="Enter Credit"  ><br>
+
+			CHE372
+			<input type="text" name="grade15" placeholder="Enter Grade"  >
+			<input type="text" name="credit15" placeholder="Enter Credit" ><br>
+
+			EMA382
+			<input type="text" name="grade16" placeholder="Enter Grade"  >
+			<input type="text" name="credit16" placeholder="Enter Credit" ><br>
+
+		</fieldset>
+
+		
+	</div>
+	
+	<p style="text-align: center;"><input type="submit"></p>
 </form>
+
+</div>
+
+
+
+
 
 <?php
 
@@ -174,7 +185,7 @@ elseif($gra3=='B'||$gra3=='b'){
 	$gra3=4;
 }
 
-elseif($gra3=='C'||$gra3=='c'){
+elseif($gra3=='C'|| $gra3=='c'){
 	$gra3=3;
 }
 
@@ -437,7 +448,8 @@ else{ $gra16=0;
 }
 $gpa = (($gra1*$cre1) + ($gra2*$cre2) + ($gra3*$cre3) +($gra4*$cre4) + ($gra5*$cre5) +($gra6*$cre6)+($gra7*$cre7)+($gra8*$cre8)+($gra9*$cre9)+($gra10*$cre10)+($gra11*$cre11)+($gra12*$cre12)+($gra13*$cre13)+($gra14*$cre14)+($gra15*$cre15)+($gra16*$cre16))/($cre1+$cre2+$cre3+$cre4+$cre5+$cre6+$cre7+$cre8+$cre9+$cre10+$cre11+$cre12+$cre13+$cre14+$cre15+$cre16);
 
-echo "<h3><b>Your grade point average is $gpa</b></h3" ;
+
+echo '<h3 style="text-align:center">'.$gpa.'</h3>' ;
 
 
 ?>
